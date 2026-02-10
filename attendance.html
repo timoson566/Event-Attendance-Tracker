@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="attendence.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Attendance Traker</title>
+</head>
+<body>
+    <h1>Event Attendance Traker</h1>  
+<div class="project">
+         <input type="text" id="myInput" placeholder="Enter attendence name">
+    <div class="btns">
+        <button onclick="addAttendence()">Add Attendence</button>
+        <button onclick="removeLast()">Remove Last</button>
+         <button onclick="clearAll()">Clear All</button>
+    </div>
+         <ol id="attendList">
+
+         </ol>
+      <div id="attendenceCountDisplay">Attendence: <span id="attendenceCount">0</span></div>
+    </div>
+    <script src="attendance.js"></script>
+</body>
+</html>
